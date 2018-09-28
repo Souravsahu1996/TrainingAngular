@@ -1,0 +1,7 @@
+D:\engg camp assignment\layar_new_2\ClsPerson\bin\Debug\netstandard1.4\ClsPerson.deps.json
+D:\engg camp assignment\layar_new_2\ClsPerson\bin\Debug\netstandard1.4\ClsPerson.dll
+D:\engg camp assignment\layar_new_2\ClsPerson\bin\Debug\netstandard1.4\ClsPerson.pdb
+D:\engg camp assignment\layar_new_2\ClsPerson\obj\Debug\netstandard1.4\ClsPerson.AssemblyInfo.cs
+D:\engg camp assignment\layar_new_2\ClsPerson\obj\Debug\netstandard1.4\ClsPerson.dll
+D:\engg camp assignment\layar_new_2\ClsPerson\obj\Debug\netstandard1.4\ClsPerson.pdb
+D:\engg camp assignment\layar_new_2\ClsPerson\bin\Debug\netstandard1.4\ClsPerson.dll.config

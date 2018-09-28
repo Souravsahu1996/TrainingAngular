@@ -1,0 +1,17 @@
+#body{
+  width:100%;
+}
+#topbar1
+{
+  margin:auto;
+  padding-bottom: 10px;
+
+}
+.fooobar
+{
+    background-image: url("/assets/1.png");
+    background-attachment:fixed;
+}
+.content{
+    align-content: center;
+}

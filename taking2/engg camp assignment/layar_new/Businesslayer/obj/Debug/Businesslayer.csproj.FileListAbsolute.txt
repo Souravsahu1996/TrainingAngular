@@ -1,0 +1,7 @@
+D:\engg camp assignment\layar_new\Businesslayer\bin\Debug\Businesslayer.dll
+D:\engg camp assignment\layar_new\Businesslayer\bin\Debug\Businesslayer.pdb
+D:\engg camp assignment\layar_new\Businesslayer\bin\Debug\AccountDetails.dll
+D:\engg camp assignment\layar_new\Businesslayer\bin\Debug\AccountDetails.pdb
+D:\engg camp assignment\layar_new\Businesslayer\obj\Debug\Businesslayer.dll
+D:\engg camp assignment\layar_new\Businesslayer\obj\Debug\Businesslayer.pdb
+D:\engg camp assignment\layar_new\Businesslayer\obj\Debug\Businesslayer.csprojResolveAssemblyReference.cache

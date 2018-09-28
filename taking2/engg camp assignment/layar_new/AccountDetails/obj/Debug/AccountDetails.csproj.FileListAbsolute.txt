@@ -1,0 +1,4 @@
+D:\engg camp assignment\layar_new\AccountDetails\bin\Debug\AccountDetails.dll
+D:\engg camp assignment\layar_new\AccountDetails\bin\Debug\AccountDetails.pdb
+D:\engg camp assignment\layar_new\AccountDetails\obj\Debug\AccountDetails.dll
+D:\engg camp assignment\layar_new\AccountDetails\obj\Debug\AccountDetails.pdb

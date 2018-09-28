@@ -1,0 +1,1 @@
+create table student_new(s_id int primary key,s_name varchar(30),s_age int)

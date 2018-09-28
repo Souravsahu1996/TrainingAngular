@@ -1,0 +1,11 @@
+D:\engg camp assignment\layar_new_2\business_layar\bin\Debug\business_layar.dll
+D:\engg camp assignment\layar_new_2\business_layar\bin\Debug\business_layar.pdb
+D:\engg camp assignment\layar_new_2\business_layar\bin\Debug\sourav.dll
+D:\engg camp assignment\layar_new_2\business_layar\bin\Debug\sourav.pdb
+D:\engg camp assignment\layar_new_2\business_layar\obj\Debug\business_layar.dll
+D:\engg camp assignment\layar_new_2\business_layar\obj\Debug\business_layar.pdb
+D:\engg camp assignment\layar_new_2\business_layar\bin\Debug\AccountDetails.dll
+D:\engg camp assignment\layar_new_2\business_layar\bin\Debug\Businesslayer.dll
+D:\engg camp assignment\layar_new_2\business_layar\bin\Debug\AccountDetails.pdb
+D:\engg camp assignment\layar_new_2\business_layar\bin\Debug\Businesslayer.pdb
+D:\engg camp assignment\layar_new_2\business_layar\obj\Debug\business_layar.csprojResolveAssemblyReference.cache

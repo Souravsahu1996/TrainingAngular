@@ -1,0 +1,5 @@
+D:\engg camp assignment\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\engg camp assignment\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\engg camp assignment\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\engg camp assignment\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\engg camp assignment\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

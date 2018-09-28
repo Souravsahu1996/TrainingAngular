@@ -1,0 +1,1 @@
+create table home (home_no int primary key,home_location varchar(30),home_member int);

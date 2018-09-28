@@ -1,0 +1,123 @@
+<form class="emp-form" #employeeForm="ngForm" (ngSubmit)="onSubmit(employeeForm)">
+ <div class="form-row">
+   <div class="form-group col-md-6">
+     <input class="form-control" name="FirstName" #FirstName="ngModel" [(ngModel)]="employeeService.selectedEmployee.FirstName" placeholder="FirstName">
+     
+   </div>
+   <div class="form-group col-md-6">
+      <input class="form-control" name="LastName" #LastName="ngModel" [(ngModel)]="employeeService.selectedEmployee.LastName" placeholder="LastName">
+    </div>
+ </div>
+ <div class="form-row">
+    <div class="form-group col-md-6">
+      <input class="form-control" name="EmpCode" #EmpCode="ngModel" [(ngModel)]="employeeService.selectedEmployee.EmpCode" placeholder="EmpCode">
+    </div>
+    <div class="form-group col-md-6">
+       <input class="form-control" name="Office" #Office="ngModel" [(ngModel)]="employeeService.selectedEmployee.Office" placeholder="Office">
+     </div>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-lg btn-block btn-info">submit</button>
+  </div>
+</form>
+  <!-- <div>
+<input type="text" placeholder="search" [(ngModel)]="Text">
+<table>
+  <tbody>
+    <tr *ngFor ="let c of employeeService.employeeList | filter4 : Text ">
+      <td>{{c.FirstName}}-{{c.LastName}}</td>
+      <td>{{c.EmpCode}}</td>
+      <td>{{c.Office}}</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+  <div>
+<input type="text" placeholder="search1" [(ngModel)]="searchText1">
+<table>
+  <tbody>
+    <tr *ngFor ="let e of employeeService.employeeList | filter1 : searchText1">
+      <td>{{e.EmpCode}}</td>
+    </tr>
+  </tbody>
+</table>
+<input type="text" placeholder="search2" [(ngModel)]="searchText2">
+<table>
+    <tbody>
+      <tr *ngFor ="let f of employeeService.employeeList | filter3 : searchText2">
+        <td>{{f.Office}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div> -->
+
+<div class="form-row">
+    <div class="form-group col-md-3">
+<input type="text" placeholder="search" [(ngModel)]="SearchText">
+<table>
+  <tbody>
+    <tr *ngFor ="let c of employeeService.employeeList | filter: SearchText">
+      <td><input type="radio" value="{{c.EmpCode}}" [(ngModel)]="empcode">{{c.FirstName}}-{{c.LastName}}</td>
+       <!-- <td>{{c.EmpCode}}</td>
+      <td>{{c.Office}}</td> -->
+    </tr>
+  </tbody>
+</table>
+    </div>
+<!-- <input type="text" placeholder="search" [(ngModel)]="SearchText1"> -->
+<!-- <table>
+  <tbody>
+    <tr *ngFor ="let e of employeeService.employeeList | filter1: SearchText1">
+      <!-- <td><input type="radio" value="{{c.EmpCode}}" [(ngModel)]="empcode">{{c.FirstName}}-{{c.LastName}}</td> -->
+        <!-- <td>{{e.EmpCode}}</td> -->
+      <!-- <td>{{c.Office}}</td> -->
+    <!-- </tr>
+  </tbody>
+</table> -->
+ <div class="form-group col-md-3">
+    <h4>types of room:</h4>
+<div class="form-group col-md-4">
+  <select name="drop" #roomType="ngModel" [(ngModel)]="emp.roomType">
+  <option value="Non-AC">Non-AC</option>
+  <option value="AC">AC</option>
+  <option value="Deluxe">Deluxe</option>
+  </select> 
+  </div>
+ </div>
+ 
+<div class="form-group col-md-6">
+    <h6>Employee-code</h6>
+  <select name="drop-code" #EmpCode="ngModel" [(ngModel)]= "emp.EmpCode">
+      <option value="432">432</option>
+      <option value="234">234</option>
+      <option value="14462">14462</option>
+      <option value="3456">3456</option>
+      <option value="77">77</option>
+      <option value="676">676</option>
+  </select>
+</div>
+ <div class="form-group col-md-3">
+   <label for="checkin">checkin</label>
+   <input id="checkin" name="checkin" #checkin="ngModel" [(ngModel)]="emp.checkin" type="date" value="checkin">
+ </div>
+ <div class="form-group col-md-3">
+    <label for="checkout">checkout</label>
+    <input id="checkout" name="checkout" #checkin="ngModel" [(ngModel)]="emp.checkout" type="date" value="checkin">
+  </div>
+  <button type="button" name="submit" (click)="show()">Submit</button>
+  <table>
+      <tbody>
+        <tr *ngFor ="let data of searchData">
+            <td>{{data.checkin}}</td>
+            <td>{{data.checkout}}</td>
+            <td>{{data.roomType}}</td>
+            <td>{{data.FirstName}}</td>
+            <td>{{data.LastName}}</td>
+            <td>{{data.EmpCode}}</td>
+            <td>{{data.Office}}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+
+<!-- <input type="text" #textbox1> -->

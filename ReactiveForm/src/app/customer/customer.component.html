@@ -1,0 +1,11 @@
+<form (ngSubmit)="save()" [formGroup]="customerForm">
+  <div>
+    <input id="firstNameId" type="text" placeholder="First Name" required formControlName="firstName"/>
+    <input id="lastNameId" type="text" placeholder="Last Name" required formControlName="lastName"/>
+    <input id="emailId" type="email" placeholder="email" required formControlName="email"/>
+   </div>
+   <button type="submit">submit</button>
+</form>
+{{customerForm.get('firstName').value}}
+{{customerForm.get('firstName').dirty}}
+{{customerForm.get('firstName').touched}}

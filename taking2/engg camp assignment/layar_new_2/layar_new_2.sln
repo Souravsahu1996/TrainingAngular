@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "layar_new_2", "layar_new_2\layar_new_2.csproj", "{0B76DE64-EC83-4EEB-8F3C-08AA03BC2662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sourav", "sourav\sourav.csproj", "{E8AA92BB-6B7D-4EFD-B992-7C5FA8BFF648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "business_layar", "business_layar\business_layar.csproj", "{BDE81679-3AF0-407B-BC73-AF6CE6443FDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B76DE64-EC83-4EEB-8F3C-08AA03BC2662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B76DE64-EC83-4EEB-8F3C-08AA03BC2662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B76DE64-EC83-4EEB-8F3C-08AA03BC2662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B76DE64-EC83-4EEB-8F3C-08AA03BC2662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8AA92BB-6B7D-4EFD-B992-7C5FA8BFF648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AA92BB-6B7D-4EFD-B992-7C5FA8BFF648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AA92BB-6B7D-4EFD-B992-7C5FA8BFF648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AA92BB-6B7D-4EFD-B992-7C5FA8BFF648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDE81679-3AF0-407B-BC73-AF6CE6443FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE81679-3AF0-407B-BC73-AF6CE6443FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE81679-3AF0-407B-BC73-AF6CE6443FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE81679-3AF0-407B-BC73-AF6CE6443FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

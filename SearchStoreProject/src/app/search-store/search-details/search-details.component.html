@@ -1,0 +1,82 @@
+ <div class="fo">
+<div class="body">
+<div id="topbar-1" class="container-fluid" class="topbar" >
+  <div class="row" class="location">
+      <div class="col-sm-12" class="topbar">
+        <label>Location</label>
+      <select name=Location #Location="ngModel" [(ngModel)]="str.Location">
+          <option value="Bhubaneswar"class="subcat">Bhubaneswar</option>
+          <option value="Mumbai"class="subcat">Mumbai</option>
+          <option value="Delhi"class="subcat">Delhi</option>
+          <option value="Bangalore"class="subcat">Bangalore</option>
+          <option value="Chennai"class="subcat">Chennai</option>
+        </select>
+      </div>
+  </div>
+  <div class="paddate">
+  <div class="row">
+    <div class="col-sm-6" >
+        <label>CheckIn</label>
+        <input id="CheckIn" #CheckIn="ngModel" [(ngModel)]="str.CheckIn" name="CheckIn" type="date">
+    </div>
+    <div class="col-sm-6" class="check">
+      <label>CheckOut</label>
+        <input  id="CheckOut" #CheckOut="ngModel" [(ngModel)]="str.CheckOut" name="Checkout" type="date">
+    </div>
+  </div>
+</div>
+<div class="paddate">
+  <div class="row" class="location1">
+      <div class="col-sm-12" class="topbar">
+        <label>RoomType</label>
+          <select name=RoomType #RoomType="ngModel" [(ngModel)]="str.RoomType">
+              <option  value="Single-AC"class="subcat">Single-AC</option>
+              <option  value="Single-NonAC"class="subcat">Single-NonAC</option>
+              <option  value="Deluxe-AC"class="subcat">Deluxe-AC</option>
+              <option  value="Deluxe-NonAC"class="subcat">Deluxe-NonAC</option>
+            </select>
+      </div>
+  </div>
+</div>
+<div class="paddate">
+  <div class=row class="but">
+      <div class="col-sm-12" class="topbar">
+      <button class="buttonsearch" type="button"name="Search" (click)=show()>Search</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+ </div>
+
+ <table  *ngFor="let data of searchData">
+   <thead>
+     <tr>
+       <th> Location </th>
+       <th> HotelName </th>
+       <th> RoomType </th>
+       <th> Price </th>
+       <th>Rating</th>
+     </tr>
+   </thead>
+  <tbody>
+    <tr>
+      <td>{{ data.Location}}</td>
+      <td> {{ data.HotelName }} </td>
+      <td> {{ data.RoomType }} </td>
+      <td> {{ data.Price }} </td>
+      <td>{{data.Rating}}</td>
+    </tr>
+   </tbody>
+ </table>
+<!-- <table >
+  <tr *ngFor="let c of storeServiceService.storeList ">
+    <td>{{c.HotelId}}</td>
+    <td>{{c.RoomType}}</td>
+    <td>{{c.CheckIn}}</td>
+    <td>{{c.CheckOut}}</td>
+    <td>{{c.Price}}</td>
+    <td>{{c.Location}}</td>
+  </tr>
+</table>
+ -->

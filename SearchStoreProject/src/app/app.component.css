@@ -1,0 +1,14 @@
+#body-new
+{
+    background-color:rgba(4, 255, 0, 0.56);
+}
+.fooobar
+{
+    background-image: url("https://livinator.com/wp-content/uploads/2015/10/epm3.jpg");
+    background-attachment:fixed;
+    height:2000px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    overflow: hidden;
+}
